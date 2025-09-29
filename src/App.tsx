@@ -16,6 +16,8 @@ function App() {
   const [menuItems, setMenuItems] = useState(Data);
   const [theCategories, setTheCategories] = useState(allCategories);
   
+  console.log(setTheCategories)
+
   const filterItems = (category) => {
     if (category === 'All') {
       setMenuItems(Data);
