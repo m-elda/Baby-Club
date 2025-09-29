@@ -17,7 +17,7 @@ function ProductList({Data}) {
             <Card.Title className='mt-3'>{product.name}</Card.Title>
             <Card.Text className='card-text'>{product.age}</Card.Text>
             <Card.Text className='card-text'>{product.price} LE</Card.Text>
-            <Link target="_blank" to="https://wa.me/01211130092"><Button variant="primary" className='btn'>Order Now</Button></Link>
+            <Link target="_blank" to="https://wa.me/+201211130092"><Button variant="primary" className='btn'>Order Now</Button></Link>
           </Card.Body>
         </Card>
         ))}
